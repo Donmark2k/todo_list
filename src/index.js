@@ -16,7 +16,7 @@ const array = [
   {
     description: 'brush my teeth',
     completed: true,
-    index: 2,
+    index: 5,
   },
 
   {
@@ -33,10 +33,12 @@ const array = [
   {
     description: 'get ready for meeting',
     completed: true,
-    index: 3,
+    index: 6,
   },
 
 ];
+
+array.sort((a, b) => a.index - b.index);
 
 const activities = document.getElementById('do-list');
 for (let i = 0; i < array.length; i += 1) {
