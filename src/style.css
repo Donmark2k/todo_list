@@ -1,0 +1,79 @@
+body {
+  background-color: lightgray;
+}
+
+section {
+  margin: 30px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+#list-title {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#list-title h1 {
+  padding-left: 18px;
+}
+
+button {
+  border: none;
+  background-color: white;
+}
+
+#list-title button {
+  margin-right: 18px;
+  padding: 0;
+}
+
+input {
+  border: none;
+}
+
+#input-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 18px;
+  border-bottom: 1px solid lightgray;
+}
+
+.each-row {
+  padding: 12px 18px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#row-btn {
+  cursor: pointer;
+}
+
+.clear-all {
+  background-color: lightgray;
+  width: 100%;
+}
+
+#clear {
+  color: black;
+  text-decoration: none;
+  padding: 18px;
+  text-align: center;
+  margin: auto auto;
+  display: block;
+}
+
+.arrow {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#do-input {
+  color: #000;
+}
