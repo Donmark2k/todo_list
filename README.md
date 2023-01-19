@@ -60,7 +60,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [To do list] <a name="about-project"></a>
 
-**[To do list]**  is used to display and remind of what we have to do.
+**[To do list]**  is used to display and remind us of what we have to do.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -98,6 +98,11 @@ After you're finished please remove all the comments and instructions!
 
 
 - **[I use webpack to bundle JavaScript]**
+- **[I create a new JavaScript file for the new functionality.]**
+- **[I implement a function for adding a new task (add a new element to the array).]**
+- **[Implement a function for deleting a task (remove an element from the array).]**
+- **[Implement a function for editing task descriptions.]**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
