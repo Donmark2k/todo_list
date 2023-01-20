@@ -89,3 +89,12 @@ input {
 #do-input {
   color: #000;
 }
+
+.list {
+  height: max-content;
+  width: 100%;
+}
+
+#message {
+  text-align: center;
+}
