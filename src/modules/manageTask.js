@@ -1,4 +1,3 @@
-/* eslint-disable */
 const array = [];
 export default class Tasks {
   constructor(description) {
