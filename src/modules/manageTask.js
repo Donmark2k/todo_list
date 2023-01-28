@@ -21,8 +21,8 @@ export default class Tasks {
         work.index = i + 1;
       });
       localStorage.setItem('array', JSON.stringify(array));
-      document.getElementById('message').innerHTML = '*New task added successfully.';
-      message.style.color ='green';
+      // document.getElementById('message').innerHTML = '*New task added successfully.';
+      // message.style.color ='green';
     }
   }
 
