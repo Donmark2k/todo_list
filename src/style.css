@@ -51,7 +51,19 @@ input {
   flex-direction: row;
 }
 
-#row-btn {
+.task-item,
+.add-list {
+  width: 90%;
+}
+
+.row-info {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.row-btn {
   cursor: pointer;
 }
 
@@ -76,4 +88,13 @@ input {
 
 #do-input {
   color: #000;
+}
+
+.list {
+  height: max-content;
+  width: 100%;
+}
+
+#message {
+  text-align: center;
 }
