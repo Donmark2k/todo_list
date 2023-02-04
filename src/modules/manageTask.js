@@ -10,8 +10,7 @@ export default class Tasks {
     this.description = description;
     if (description === '') {
       document.getElementById('message').innerHTML = '*Please add a task to the list.';
-      message.style.color ='red';
-
+      message.style.color = 'red';
     } else {
       const array = JSON.parse(localStorage.getItem('array')) || [];
       const newBook = new Tasks(description);
