@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for edit.js</title>
+    <title>Code coverage report for status.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,34 +19,34 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> edit.js</h1>
+        <h1><a href="index.html">All files</a> status.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">6.66% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>4/8</span>
+                <span class='fraction'>1/15</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>2/4</span>
+                <span class='fraction'>0/10</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">20% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>3/3</span>
+                <span class='fraction'>1/5</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">6.66% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>4/8</span>
+                <span class='fraction'>1/15</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -85,19 +85,19 @@
 <a name='L20'></a><a href='#L20'>20</a>
 <a name='L21'></a><a href='#L21'>21</a>
 <a name='L22'></a><a href='#L22'>22</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -105,28 +105,28 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/* eslint-disable */
-export default function editTask(item, array) {
-  // item.addEventListener('focusout', () =&gt; {
-    array.forEach((task) =&gt; {
-      <span class="missing-if-branch" title="if path not taken" >I</span>if (task.index == item.id) {
-<span class="cstat-no" title="statement not covered" >        task.description = item.value;</span>
-<span class="cstat-no" title="statement not covered" >        localStorage.setItem('array', JSON.stringify(array));</span>
-      }
-    });
-  // });
-  // item.addEventListener('keyup', (e) =&gt; {
-    // if (e.key === 'Enter') {
-      array.forEach((task) =&gt; {
-        <span class="missing-if-branch" title="if path not taken" >I</span>if (task.index == item.id) {
-<span class="cstat-no" title="statement not covered" >          task.description = item.value;</span>
-<span class="cstat-no" title="statement not covered" >          localStorage.setItem('array', JSON.stringify(array));</span>
-        }
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export default function updateTaskStatus() {
+  document.addEventListener('DOMContentLoaded', <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+    const inputChecks = <span class="cstat-no" title="statement not covered" >document.querySelectorAll('.check');</span>
+<span class="cstat-no" title="statement not covered" >    inputChecks.forEach(<span class="fstat-no" title="function not covered" >(c</span>heck) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >      check.addEventListener('change', <span class="fstat-no" title="function not covered" >(e</span>) =&gt; {</span>
+        let array = <span class="cstat-no" title="statement not covered" >[];</span>
+<span class="cstat-no" title="statement not covered" >        array = JSON.parse(localStorage.getItem('array') || '[]');</span>
+<span class="cstat-no" title="statement not covered" >        array.forEach(<span class="fstat-no" title="function not covered" >(t</span>ask) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >          if ((e.target.id === `input${task.index}`) &amp;&amp; (task.completed === false)) {</span>
+<span class="cstat-no" title="statement not covered" >            task.completed = true;</span>
+<span class="cstat-no" title="statement not covered" >            e.target.checked = true;</span>
+<span class="cstat-no" title="statement not covered" >            localStorage.setItem('array', JSON.stringify(array));</span>
+          } else <span class="cstat-no" title="statement not covered" >if ((e.target.id === `input${task.index}`) &amp;&amp; (task.completed === true)) {</span>
+<span class="cstat-no" title="statement not covered" >            task.completed = false;</span>
+<span class="cstat-no" title="statement not covered" >            e.target.checked = false;</span>
+<span class="cstat-no" title="statement not covered" >            localStorage.setItem('array', JSON.stringify(array));</span>
+          }
+        });
       });
-    }
-  // });
-// }
-&nbsp;</pre></td></tr></table></pre>
+    });
+  });
+}</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->

@@ -1,55 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1674918686001" clover="3.2.0">
-  <project timestamp="1674918686001" name="All files">
-    <metrics statements="40" coveredstatements="20" conditionals="16" coveredconditionals="6" methods="14" coveredmethods="6" elements="70" coveredelements="32" complexity="0" loc="40" ncloc="40" packages="1" files="3" classes="3"/>
+<coverage generated="1675523188863" clover="3.2.0">
+  <project timestamp="1675523188864" name="All files">
+    <metrics statements="50" coveredstatements="30" conditionals="24" coveredconditionals="9" methods="16" coveredmethods="12" elements="90" coveredelements="51" complexity="0" loc="50" ncloc="50" packages="1" files="4" classes="4"/>
     <file name="clear.js" path="C:\Users\Chukwuemeka\Desktop\project\microverse\todo_list\src\modules\clear.js">
-      <metrics statements="7" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
-      <line num="2" count="0" type="stmt"/>
-      <line num="3" count="0" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
-      <line num="5" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="6" count="0" type="stmt"/>
-      <line num="7" count="0" type="stmt"/>
-      <line num="8" count="0" type="stmt"/>
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
     </file>
     <file name="edit.js" path="C:\Users\Chukwuemeka\Desktop\project\microverse\todo_list\src\modules\edit.js">
-      <metrics statements="11" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
-      <line num="3" count="0" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
-      <line num="5" count="0" type="cond" truecount="0" falsecount="2"/>
+      <metrics statements="8" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="3" type="cond" truecount="1" falsecount="1"/>
       <line num="6" count="0" type="stmt"/>
       <line num="7" count="0" type="stmt"/>
-      <line num="11" count="0" type="stmt"/>
-      <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="13" count="0" type="stmt"/>
-      <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="3" type="cond" truecount="1" falsecount="1"/>
       <line num="15" count="0" type="stmt"/>
       <line num="16" count="0" type="stmt"/>
     </file>
     <file name="manageTask.js" path="C:\Users\Chukwuemeka\Desktop\project\microverse\todo_list\src\modules\manageTask.js">
       <metrics statements="22" coveredstatements="20" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="6"/>
       <line num="2" count="1" type="stmt"/>
-      <line num="5" count="4" type="stmt"/>
-      <line num="6" count="4" type="stmt"/>
-      <line num="7" count="4" type="stmt"/>
-      <line num="11" count="3" type="stmt"/>
-      <line num="12" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="5" count="5" type="stmt"/>
+      <line num="6" count="5" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
+      <line num="11" count="4" type="stmt"/>
+      <line num="12" count="4" type="cond" truecount="1" falsecount="1"/>
       <line num="13" count="0" type="stmt"/>
       <line num="14" count="0" type="stmt"/>
-      <line num="17" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="18" count="3" type="stmt"/>
-      <line num="19" count="3" type="stmt"/>
-      <line num="20" count="3" type="stmt"/>
-      <line num="21" count="6" type="stmt"/>
-      <line num="23" count="3" type="stmt"/>
+      <line num="17" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="4" type="stmt"/>
+      <line num="19" count="4" type="stmt"/>
+      <line num="20" count="4" type="stmt"/>
+      <line num="21" count="10" type="stmt"/>
+      <line num="23" count="4" type="stmt"/>
       <line num="30" count="1" type="stmt"/>
       <line num="31" count="1" type="cond" truecount="1" falsecount="1"/>
       <line num="32" count="1" type="stmt"/>
-      <line num="33" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="33" count="3" type="cond" truecount="2" falsecount="0"/>
       <line num="34" count="1" type="stmt"/>
       <line num="35" count="1" type="stmt"/>
-      <line num="36" count="2" type="stmt"/>
+      <line num="36" count="3" type="stmt"/>
       <line num="38" count="1" type="stmt"/>
+    </file>
+    <file name="status.js" path="C:\Users\Chukwuemeka\Desktop\project\microverse\todo_list\src\modules\status.js">
+      <metrics statements="15" coveredstatements="1" conditionals="10" coveredconditionals="0" methods="5" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="9" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="13" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>
