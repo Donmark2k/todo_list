@@ -1,4 +1,3 @@
-/* eslint-disable */
 export default function editTask(item, array) {
   // item.addEventListener('focusout', () => {
     array.forEach((task) => {
